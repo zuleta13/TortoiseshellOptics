@@ -84,3 +84,32 @@ nav a {
   justify-content: center;
   align-items: center;
 }
+
+/* BOTTOM SECTION STYLES */
+.bottom-section {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.services,
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service {
+  width: 5rem;
+  height: 8rem;
+  /* overflow: hidden; */
+  padding-bottom: 3rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.service img {
+  width: 3.5rem;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+}
