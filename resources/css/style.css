@@ -2,7 +2,10 @@
 html {
     font-family: Helvetica;
     font-size: 18px;
-    line-height: 1.4;
+}
+
+body {
+  line-height: 1.4;
 }
 
 .full-width {
@@ -93,14 +96,18 @@ nav a {
 .services,
 .info {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.services {
+  padding-bottom: 3rem;
 }
 
 .service {
   width: 5rem;
   height: 8rem;
   /* overflow: hidden; */
-  padding-bottom: 3rem;
+  margin: 0 4rem;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -112,4 +119,31 @@ nav a {
   width: 3.5rem;
   padding-bottom: 1rem;
   margin: 0 auto;
+}
+
+.info-piece {
+  width: 35%;
+}
+
+.info-piece h3 {
+  text-align: center;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.info .philosophy {
+  margin-right: 5%;
+}
+
+/* FOOTER STYLES */
+.copyright {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+
+.copyright img {
+  height: 1.5rem;
+  margin-right: 1rem;
 }
