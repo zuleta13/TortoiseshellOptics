@@ -1,0 +1,27 @@
+/* UNIVERSAL STYLES */
+html {
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.white {
+  color: white;
+}
+
+.bg-color {
+  background-color: cadetblue;
+}
+
+.bold {
+  font-weight: bold;
+}
