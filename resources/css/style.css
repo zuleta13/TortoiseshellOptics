@@ -25,3 +25,62 @@ html {
 .bold {
   font-weight: bold;
 }
+
+/* TOP SECTION STYLES */
+.top-section {
+  height: 30rem;
+  background-image: url("../media/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  position: relative;
+  top: 1rem;
+}
+
+header,
+.logo,
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo,
+nav {
+  padding: 1rem 0;
+}
+
+.logo img {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 2rem;
+}
+
+.slogan {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 14rem;
+}
+
+.slogan h1 {
+  width: 35rem;
+  background-color: white;
+  padding: 2rem 0;
+  position: relative;
+  left: 2rem;
+  font-size: 2rem;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
