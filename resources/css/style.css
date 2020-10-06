@@ -246,6 +246,10 @@ nav .small-screen {
     margin-right: 0;
   }
 
+  .info-piece h3 {
+    font-size: 1rem;
+  }
+
   .info-piece p {
     margin: 0 auto;
     width: 70%;
